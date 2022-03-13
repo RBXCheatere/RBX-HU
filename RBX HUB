@@ -1,0 +1,103 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local UI = Material.Load({
+     Title = "RBX Hub 2.0",
+     Style = 3,
+     SizeX = 300,
+     SizeY = 300,
+     Theme = "Dark"
+})
+
+local Page = UI.New({
+    Title = "Main"
+})
+local Page2 = UI.New({
+    Title = "Universal Scripts"
+})
+local Page3 = UI.New({
+    Title = "Phantom Forces"
+})
+local Page4 = UI.New({
+    Title = "Murder Mystery 2"
+})
+local Page5 = UI.New({
+    Title = "Da Hood"
+})
+local Page6 = UI.New({
+    Title = "BedWars"
+})
+local Page7 = UI.New({
+    Title = "Frontlines"
+})
+Page.Button({
+    Text = "Anti-Afk",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RBXCheatere/RBXCheatere/main/RBX'))()
+    end
+})
+Page2.Button({
+    Text = "Fates ESP",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua'))()
+    end
+})
+Page2.Button({
+    Text = "OwlHub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+    end
+})
+Page2.Button({
+    Text = "InfiniteYield",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end
+})
+Page3.Button({
+    Text = "Evo V2",
+    Callback = function()
+        loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()   
+    end
+})
+Page3.Button({
+    Text = "Herrtt Undetected",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Herrtt/Phantom-Forces-Cheat/main/Main.lua", true))() 
+    end
+})
+Page4.Button({
+    Text = "EclipseMM2",
+    Callback = function()
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script"),true))()
+    end
+})
+Page4.Button({
+    Text = "Xenny-Ware",
+    Callback = function()
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/xennyy/Xenny-Ware/main/loader.lua"),true))()
+    end
+})
+Page5.Button({
+    Text = "Faded",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+    end
+})
+Page5.Button({
+    Text = "Faded",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+    end
+})
+Page6.Button({
+    Text = "Vape V4",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+    end
+})
+Page7.Button({
+    Text = "Frontlines menu",
+    Callback = function()
+        loadstring(game:HttpGet'https://raw.githubusercontent.com/wally-rblx/roblox-scripts/main/frontlines.lua')()
+    end
+})
