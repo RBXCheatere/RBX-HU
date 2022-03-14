@@ -33,10 +33,18 @@ Page.Button({
     Callback = function()
    loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\39\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\82\66\88\67\104\101\97\116\101\114\101\47\82\66\88\67\104\101\97\116\101\114\101\47\109\97\105\110\47\82\66\88\39\41\41\40\41\10")()
     end
-})Page.Button({
+})
+Page.Button({
     Text = "ESP",
     Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/RBXCheatere/dwad/main/Speedsd'))()
+        loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\82\66\88\67\104\101\97\116\101\114\101\47\100\119\47\109\97\105\110\47\69\83\80\34\41\41\40\41\10
+")()
+    end
+})
+Page.Button({
+    Text = "Fly",
+    Callback = function()
+        loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Fly.txt"))()
     end
 })
 Page2.Button({
@@ -73,6 +81,12 @@ Page3.Button({
     Text = "Herrtt Undetected",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Herrtt/Phantom-Forces-Cheat/main/Main.lua", true))() 
+    end
+})
+Page3.Button({
+    Text = "Purple Haze",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Averiias/purple-haze-pf/main/loader.lua"))()
     end
 })
 Page4.Button({
