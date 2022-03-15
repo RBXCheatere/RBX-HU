@@ -89,12 +89,6 @@ Page2.Button({
     end
 })
 Page2.Button({
-    Text = "Solaris hub",
-    Callback = function()
-        loadstring(game:HttpGet("https://github.com/RBXCheatere/Sora/edit/main/Solaris%20hub"))()
-    end
-})
-Page2.Button({
     Text = "INFINITE YIELD",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
