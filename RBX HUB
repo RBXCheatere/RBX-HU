@@ -41,7 +41,7 @@ Page.Button({
     end
 })
 Page.Button({
-    Text = "InfineJump",
+    Text = "Infinite Jump",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/RBXCheatere/daw/main/InfitJump'))()
     end
@@ -89,7 +89,7 @@ Page2.Button({
     end
 })
 Page2.Button({
-    Text = "InfiniteYield",
+    Text = "INFINITE YIELD",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
     end
