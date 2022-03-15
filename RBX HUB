@@ -5,7 +5,7 @@ local UI = Material.Load({
      Style = 3,
      SizeX = 300,
      SizeY = 300,
-     Theme = "light"
+     Theme = "Dark"
 })
 local Page = UI.New({
     Title = "Main"
