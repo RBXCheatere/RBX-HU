@@ -1,10 +1,10 @@
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/RBXCheatere/dwd/main/RBXHUB"))()
 
 local UI = Material.Load({
-     Title = "RBX Hub 2.0",
+     Title = "RBX Hub 2.1",
      Style = 3,
      SizeX = 300,
-     SizeY = 300,
+     SizeY = 500,
      Theme = "Dark"
 })
 local Page = UI.New({
@@ -41,10 +41,34 @@ Page.Button({
     end
 })
 Page.Button({
+    Text = "InfineJump",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RBXCheatere/daw/main/InfitJump'))()
+    end
+})
+Page.Button({
     Text = "Fly",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/RBXCheatere/Fly/main/Fly'))()
     end
+})
+Page.Slider({
+    Text = "Speed",
+    Callback = function(value)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
+    end,
+    Min = 16,
+    Max = 1000,
+    Def = 16
+})
+Page.Slider({
+    Text = "JumpPower",
+    Callback = function(value)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = value
+    end,
+    Min = 7.5,
+    Max = 1000,
+    Def = 7.5
 })
 Page2.Button({
     Text = "Fates ESP",
