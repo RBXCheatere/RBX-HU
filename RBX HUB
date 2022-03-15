@@ -4,8 +4,8 @@ local UI = Material.Load({
      Title = "RBX Hub 2.1",
      Style = 3,
      SizeX = 300,
-     SizeY = 500,
-     Theme = "Dark"
+     SizeY = 300,
+     Theme = "light"
 })
 local Page = UI.New({
     Title = "Main"
@@ -86,6 +86,12 @@ Page2.Button({
     Text = "OwlHub",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+    end
+})
+Page2.Button({
+    Text = "Solaris hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://github.com/RBXCheatere/Sora/edit/main/Solaris%20hub"))()
     end
 })
 Page2.Button({
