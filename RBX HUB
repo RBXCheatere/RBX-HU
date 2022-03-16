@@ -1,10 +1,10 @@
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/RBXCheatere/dwd/main/RBXHUB"))()
 
 local UI = Material.Load({
-     Title = "RBX Hub 2.1",
+     Title = "RBX Hub 2.2",
      Style = 3,
      SizeX = 300,
-     SizeY = 300,
+     SizeY = 400,
      Theme = "Dark"
 })
 local Page = UI.New({
@@ -31,6 +31,15 @@ local Page7 = UI.New({
 local Page8 = UI.New({
     Title = "Bad Business"
 })
+local Page9 = UI.New({
+    Title = "Pet Simulator X!"
+})
+local Page10 = UI.New({
+    Title = "Jailbreak"
+})
+local Page11 = UI.New({
+    Title = "Jailbird"
+})
 Page.Button({
     Text = "Anti-Afk",
     Callback = function()
@@ -52,7 +61,7 @@ Page.Button({
 Page.Button({
     Text = "Fly",
     Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/RBXCheatere/Fly/main/Fly'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RBXCheatere/Fly/main/Fly'))()  
     end
 })
 Page.Slider({
@@ -157,3 +166,40 @@ Page8.Button({
         loadstring(game:HttpGet'https://raw.githubusercontent.com/RBXCheatere/dfd/main/SilentAim')()
     end
 })
+Page9.Button({
+    Text = "Xtools",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/GrubHub/main/free/PSXFree.lua"))()
+    end
+})
+Page9.Button({
+    Text = "Saza Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/kB7CVpBd"))()
+    end
+})
+Page10.Button({
+    Text = "Auto Rob Script",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
+    end
+})
+Page11.Button({
+    Text = "Cypher X",
+    Callback = function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Enviie/Cypher-X-Jailbird-Ware/main/Jailbird-Ware%20Main.lua"))("Very Cool Swag")
+    end
+})
+Page11.Button({
+    Text = "Swaggereric",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/mrgunz/Swaggereric/master/Jailbird"))();
+    end
+})
+Page11.Button({
+    Text = "Asgar",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/1iseo/rbx/main/jailbird/jailbird.lua"))()
+    end
+})
+
