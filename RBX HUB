@@ -97,7 +97,7 @@ Page2.Button({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
     end
 })
-Page3.Button({
+Page2.Button({
     Text = "Evo V2",
     Callback = function()
         loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()   
