@@ -28,6 +28,9 @@ local Page6 = UI.New({
 local Page7 = UI.New({
     Title = "Frontlines"
 })
+local Page8 = UI.New({
+    Title = "Bad Business"
+})
 Page.Button({
     Text = "Anti-Afk",
     Callback = function()
@@ -146,5 +149,11 @@ Page7.Button({
     Text = "Frontlines menu",
     Callback = function()
         loadstring(game:HttpGet'https://raw.githubusercontent.com/wally-rblx/roblox-scripts/main/frontlines.lua')()
+    end
+})
+Page8.Button({
+    Text = "Bad Business",
+    Callback = function()
+        loadstring(game:HttpGet'https://raw.githubusercontent.com/RBXCheatere/dfd/main/SilentAim')()
     end
 })
