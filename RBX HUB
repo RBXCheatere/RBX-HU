@@ -40,6 +40,9 @@ local Page10 = UI.New({
 local Page11 = UI.New({
     Title = "Jailbird"
 })
+local Page12 = UI.New({
+    Title = "Counter Blox"
+})
 Page.Button({
     Text = "Anti-Afk",
     Callback = function()
@@ -202,4 +205,12 @@ Page11.Button({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/1iseo/rbx/main/jailbird/jailbird.lua"))()
     end
 })
+Page12.Button({
+    Text = "Danixik",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Danixik/LoaderV3/main/Main.lua", true))()
+    end
+})
+
+
 
